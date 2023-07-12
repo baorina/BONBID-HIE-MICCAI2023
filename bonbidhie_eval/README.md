@@ -1,4 +1,4 @@
-# bonbidhie2023_eval Evaluation
+# bonbidhie2023_eval Evaluation Docker
 
 The source code for the evaluation container for
 bonbidhie2023_eval, generated with
@@ -7,6 +7,9 @@ using Python 3.8.
 
 Before running, you will need a local docker installation.
 For more details, please read grand-challenge documents https://grand-challenge.org/documentation/automated-evaluation/ and https://comic.github.io/evalutils/usage.html 
+
+Evaluation metrics in this docker: Dice, MASD, NSD.
+
 
 Please follow these steps to run it on the local machine.
 
