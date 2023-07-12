@@ -32,7 +32,7 @@ docker run --rm \
         -v $SCRIPTPATH/output/:/output/ \
         bondbidhie2023_algorithm
 
-But for uploading algorithm docker to grand challenge server, please use the codes that I provided in test.sh
+But for uploading algorithm docker to the grand challenge server, please use the codes that I provided in test.sh.
 
 docker run --rm \
         --memory="${MEM_LIMIT}" \
