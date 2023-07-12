@@ -1,4 +1,5 @@
 # bondbidhie2023_algorithm Algorithm Docker
+Prepared by Rina Bao, 7/12/2023
 
 The source code for the algorithm container for
 bondbidhie2023_algorithm, generated with
