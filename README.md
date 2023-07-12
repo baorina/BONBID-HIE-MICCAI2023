@@ -27,6 +27,6 @@ Dockers for participating teams:
 
 --bonbidhie_eval: evaluation docker for BONBID-HIE MICCAI 2023 Challenge. 
 
---bonbidhie_algorithms: algorithms demo docker for BONBID-HIE MICCAI 2023 Challenge.
+--bonbidhie2023_algorithms: algorithms demo docker for BONBID-HIE MICCAI 2023 Challenge.
 
 For using these dockers, please read the README.md in each folder.
