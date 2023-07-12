@@ -22,3 +22,11 @@ Yangming Ou: Yangming.Ou@childrens.harvard.edu
 
 License:
 All training data has been made publicly available under the CC BY NC ND license (https://creativecommons.org/licenses/by-nc-nd/2.0/, allowing academic use with credit, prohibiting commercial use without owner’s permission, and disallowing derivation or adaption of data). 
+
+Dockers for participating teams:
+
+--bonbidhie_eval: evaluation docker for BONBID-HIE MICCAI 2023 Challenge. 
+
+--bonbidhie_algorithms: algorithms demo docker for BONBID-HIE MICCAI 2023 Challenge.
+
+For using these dockers, please read the README.md in each folder.
