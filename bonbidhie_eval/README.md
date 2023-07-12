@@ -7,6 +7,7 @@ using Python 3.8.
 
 Before running, you will need a local docker installation.
 For more details, please read grand-challenge documents https://grand-challenge.org/documentation/automated-evaluation/ and https://comic.github.io/evalutils/usage.html 
+
 Please follow these steps to run it on the local machine.
 
 (1) mkdir groud-truth
