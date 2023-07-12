@@ -151,13 +151,13 @@ class Interface:
         output_directory = OUTPUT_PREFIX / self.relative_path
 
         output_directory.mkdir(exist_ok=True, parents=True)
-        print (data.GetSpacing())
+        #print (data.GetSpacing())
         file_save_name=output_directory / "overlay.mha"
-        print (file_save_name)
+        #print (file_save_name)
 
         SimpleITK.WriteImage(data, file_save_name)
         check_file = os.path.isfile(file_save_name)
-        print ("check file", check_file)
+        #print ("check file", check_file)
 
     @property
     def _file_mode_suffix(self):
