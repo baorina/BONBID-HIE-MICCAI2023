@@ -1,5 +1,5 @@
-#### codes were created by Rina Bao (rinabao@childrens.harvard.edu)
-#### codes were modified from deep mind surface distance https://github.com/deepmind/surface-distance
+#### codes were created by Rina Bao (rina.bao@childrens.harvard.edu)
+#### codes were modified from deepmind's github surface distance https://github.com/deepmind/surface-distance
 
 from __future__ import absolute_import
 from __future__ import division
