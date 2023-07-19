@@ -1,4 +1,5 @@
 # bondbidhie2023_algorithm Algorithm Docker
+Prepared by Rina Bao, 7/12/2023
 
 The source code for the algorithm container for
 bondbidhie2023_algorithm, generated with
@@ -8,6 +9,13 @@ using Python 3.8.
 
 Before running, you will need a local docker installation.
 For more details, please read grand-challenge documents [https://grand-challenge.org/documentation/automated-evaluation/](https://grand-challenge.org/documentation/creating-an-algorithm-container/) and [https://comic.github.io/evalutils/usage.html](https://comic.github.io/evalutils/usage.html#algorithm-container) 
+
+predict.py is the main function for generating prediction results.
+
+Noted that when your algorithm is run on grand challenge <local_path>/case1/ will be mapped to /input/. 
+Then a separate run will be made with <local_path>/case2/ mapped to /input/. This allows grand challenge to execute all the jobs in parallel on their cloud infrastructure. 
+For simplicity, you can include one case in your test data when you test locally. The platform will handle multiple cases.
+Predict should only handle one case.
 
 
 Please follow these steps to run it on the local machine.
@@ -47,4 +55,4 @@ docker run --rm \
         bondbidhie2023_algorithm
 
 (3) ./export.sh 
-Running ./export.sh, and submit the generated zip file of the algorithm docker.
+Running ./export.sh, and submitting the generated zip file of the algorithm docker.
