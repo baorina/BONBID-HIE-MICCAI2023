@@ -880,7 +880,7 @@ class Bonbidhie2023_eval(ClassificationEvaluation):
             validators=(
                 NumberOfCasesValidator(num_cases=85),
                 UniquePathIndicesValidator(),
-                UniqueImagesValidator(),
+                #UniqueImagesValidator(),
             ),
         )
 
@@ -935,12 +935,17 @@ class Bonbidhie2023_eval(ClassificationEvaluation):
                 MASD_i=np.nan
                 NSD_i=0.
         else:
+            if np.sum(pred_s)==0:
+                dice_i=0.
+                MASD_i=np.nan
+                NSD_i=0.
+            else:
 
-            case_spacing=gt.GetSpacing()
-            surface_distances_c=compute_surface_distances(gt_s,pred_s,case_spacing)
-            MASD_i=compute_MASD(surface_distances_c)
-            NSD_i = compute_NSD(surface_distances_c,gt_s,pred_s)
-            dice_i=overlap_measures.GetDiceCoefficient()
+                case_spacing=gt.GetSpacing()
+                surface_distances_c=compute_surface_distances(gt_s,pred_s,case_spacing)
+                MASD_i=compute_MASD(surface_distances_c)
+                NSD_i = compute_NSD(surface_distances_c,gt_s,pred_s)
+                dice_i=overlap_measures.GetDiceCoefficient()
 
 
         return {
