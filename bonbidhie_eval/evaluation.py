@@ -909,9 +909,9 @@ class Bonbidhie2023_eval(ClassificationEvaluation):
        
         # Score the case
         
-        pred.SetOrigin(gt.GetOrigin())
-        pred.SetSpacing(gt.GetSpacing())
-        pred.SetDirection(gt.GetDirection())
+        #pred.SetOrigin(gt.GetOrigin())
+        #pred.SetSpacing(gt.GetSpacing())
+        #pred.SetDirection(gt.GetDirection())
         #print (gt_path,gt.GetSpacing(),pred.GetSpacing(),gt.GetOrigin(),pred.GetOrigin())
        
         
