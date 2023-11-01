@@ -32,7 +32,7 @@ Rina Bao: Rina.Bao@childrens.harvard.edu
 Yangming Ou: Yangming.Ou@childrens.harvard.edu
 
 License:
-All training data has been made publicly available under the CC BY NC license (https://creativecommons.org/licenses/by-nc/4.0/legalcode.en, allowing academic use with credit, prohibiting commercial use without owner’s permission). 
+All training data has been made publicly available under the CC BY NC license (https://creativecommons.org/licenses/by-nc/4.0/legalcode.en), allowing academic use with credit, prohibiting commercial use without owner’s permission). 
 
 Dockers for participating teams:
 
